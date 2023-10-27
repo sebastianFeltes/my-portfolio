@@ -1,7 +1,7 @@
 import { useRef } from "react";
 
 function Skills() {
-
+  
   const skills = useRef(null);
 
   return (
@@ -65,24 +65,16 @@ function Skills() {
               SOFT SKILLS
             </p>
             <div className="flex flex-col w-full text-white">
-              <span>React JS</span>
+              <span>Creativity</span>
               <progress
                 id="react-bar"
                 className="progress progress-warning w-full bg-slate-200 border border-black"
-                value="80"
+                value="90"
                 max="100"
               ></progress>
             </div>
             <div className="flex flex-col text-white">
-              <span>Next JS</span>
-              <progress
-                className="progress progress-warning w-full bg-slate-200 border border-black"
-                value="40"
-                max="100"
-              ></progress>
-            </div>
-            <div className="flex flex-col text-white">
-              <span>JS</span>
+              <span>Teamwork</span>
               <progress
                 className="progress progress-warning w-full bg-slate-200 border border-black"
                 value="80"
@@ -90,7 +82,15 @@ function Skills() {
               ></progress>
             </div>
             <div className="flex flex-col text-white">
-              <span>HTML</span>
+              <span>Lateral thinking</span>
+              <progress
+                className="progress progress-warning w-full bg-slate-200 border border-black"
+                value="80"
+                max="100"
+              ></progress>
+            </div>
+            <div className="flex flex-col text-white">
+              <span>Solve problems capacity</span>
               <progress
                 className="progress progress-warning w-full bg-slate-200 border border-black"
                 value="100"
@@ -98,7 +98,7 @@ function Skills() {
               ></progress>
             </div>
             <div className="flex flex-col text-white">
-              <span>CSS/SCSS</span>
+              <span>Whatever you need... :V</span>
               <progress
                 className="progress progress-warning w-full bg-slate-200 border border-black"
                 value="90"

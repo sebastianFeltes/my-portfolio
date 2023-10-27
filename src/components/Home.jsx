@@ -6,13 +6,13 @@ function Home() {
       <div className="hero-content text-center">
         <div className="max-w-2xl">
           <h1 className=" underline decoration-double decoration-1 decoration-yellow-300 text-5xl font-bold animate__animated animate__fadeInDown animate__delay-1s">
-            ZOMBIE
+            PROGRAMMA
           </h1>
           <h1 className=" underline decoration-1 decoration-yellow-400 text-5xl font-bold animate__animated animate__fadeInDown animate__delay-2s">
-            EATS
+            AD
           </h1>
           <h1 className=" underline decoration-1 decoration-yellow-500 text-5xl font-bold animate__animated animate__fadeInDown animate__delay-3s">
-            BRAINS
+            FUTURA
           </h1>
           <p className="py-6">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae ab
@@ -22,7 +22,7 @@ function Home() {
           </p>
           <div className="animate__animated animate__fadeIn animate__delay-4s">
             <button className="btn bg-slate-700 text-yellow-400 border-2 border-yellow-200 hover:bg-yellow-700 hover:text-white ease-in ">
-              Zombie do program...
+              Thinking the future...
             </button>
           </div>
         </div>

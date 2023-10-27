@@ -6,14 +6,7 @@ import NavBar from "./components/NavBar";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 import oniGirl from "./assets/oni-mask-samurai-girl-live-wallpaper.mp4";
-import { useRef } from "react";
-
 function App() {
-  const skillsSection = useRef(null);
-
-  const scrollToSkills = () => {
-    skillsSection.current?.scrollIntoView({ behavior: "smooth" });
-  };
 
   return (
     <div className="">
@@ -24,13 +17,13 @@ function App() {
         <div className="navbar bg-transparent shadow-md sticky top-0 hover:shadow-2xl ease-in duration-150 ">
           <div className="flex-1">
             <a className="btn btn-ghost normal-case text-xl border-b border-b-transparent ease-in duration-300 rounded-2xl hover:border-b  hover:border-transparent hover:border-b-yellow-300">
-              ZOMBIED
+              Zombie
             </a>
           </div>
           <div className="flex-none">
             <ul className="menu menu-horizontal px-1">
               <li className="border-b border-b-transparent ease-in duration-300 rounded-sm hover:border-b  hover:border-b-yellow-300">
-                <a onClick={scrollToSkills}>Skills</a>
+                <a>Skills</a>
               </li>
               <li className="border-b border-b-transparent ease-in duration-300 rounded-sm hover:border-b  hover:border-b-yellow-300">
                 <a>About</a>
@@ -48,7 +41,7 @@ function App() {
         <NavBar />
         <Home />
         <About />
-        <Skills ref={skillsSection} />
+        <Skills />
         <Work />
         <Footer />
       </div>
